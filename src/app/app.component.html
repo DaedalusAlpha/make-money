@@ -1,3 +1,4 @@
+<button (click)="startOver()">Start over.</button>
 <form (ngSubmit)="addMoney()">
   <div>
     <label class="label" for="quantity">How many?</label>
@@ -36,7 +37,6 @@
   </div>
   <button type="submit">Make Money!</button>
 </form>
-<button (click)="startOver()">Start over.</button>
 
 <h3>You have {{ sumMoney() | currency }}.</h3>
 

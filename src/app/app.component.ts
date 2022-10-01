@@ -42,6 +42,7 @@ export class AppComponent {
     return this.totalCoins.reduce((sum, c) => sum + c.amount, 0);
   }
 
+  //Reset the totalCoins array to empty.
   startOver(): void {
     this.totalCoins = [];
   }
